@@ -1,0 +1,94 @@
+body {
+	margin:0 auto;
+	border-top: 5px dotted red;
+	width: 900px ;
+	font-family: 'Roboto', sans-serif; 
+	background:#3399CC;
+}
+
+#menu{
+	float: left;
+	margin-top: 30px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	width: 900px ;
+	height: 30px;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#menu ul li a{
+	color: blue ;
+	text-decoration: none;
+	
+}
+#menu ul li a:hover, a:active {
+	border-bottom: 5px solid;
+	color: green;
+
+}
+
+#konten  {
+	width:900px;
+	height:300px;
+	background-color: pink;
+	margin-top: 100px ;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+#profile img {
+	width: 250px;
+	height:200px;
+	float : left;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+#text{
+	width: 500px;
+	margin-left:250px;
+	font-family: verdana;
+	color: grey;
+	
+}
+#konten h3{
+	margin-right:100px;
+}	
+
+
+#profil img{
+	width: 250px;
+	height:200px;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 10px;
+	float: center;
+}
+
+#galeri img{
+	width: 250px;
+	height:200px;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+#galeri h2{
+	text-align:center;
+	padding-top: 100px;
+}
+
+#tentang img{
+	padding-top: 20px;
+}
